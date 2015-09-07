@@ -1,0 +1,31 @@
+{
+  "env": {
+        "browser": true,
+        "amd": true,
+        "jquery": true
+  },
+  "globals": {
+    "THREE": false
+  },
+
+    "rules": {
+        "quotes": [2, "single", "avoid-escape"],
+        "default-case": 1,
+        "consistent-this": [1, "self"],
+        "no-lonely-if": 1,
+        "no-self-compare": 2,
+        "dot-location": [2, "object"],
+        "guard-for-in": 2,
+        "semi": 2,
+        "no-unused-vars": [1, {
+          "vars": "all",
+          "args": "none"
+        }],
+        "no-use-before-define": [2, "nofunc"],
+        "global-strict": 0,
+        "strict": [2, "function"],
+        "no-warning-comments": [1, { "terms": ["todo", "fixme"], "location": "start" }],
+        "new-cap": 1,
+        "no-console": 0
+    }
+}
